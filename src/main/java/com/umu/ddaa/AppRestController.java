@@ -14,6 +14,6 @@ public class AppRestController {
     }
 
     public int addTwoNumbers(int i, int i1) {
-        return i + i1 + i;
+        return i + i1;
     }
 }
