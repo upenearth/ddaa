@@ -9,7 +9,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the exact JAR
-COPY --from=build /app/target/app-demo-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /app/target/ddaa-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the default Spring Boot port
 EXPOSE 8080
