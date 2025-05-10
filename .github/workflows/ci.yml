@@ -24,4 +24,4 @@ jobs:
         run: mvn clean install
 
       - name: Deploy to Render
-        run: curl -X POST https://api.render.com/deploy/srv-d0d06e6mcj7s73b21h1g?key=AYkXFb_huRc
+        run: curl -X POST https://api.render.com/deploy/srv-d0fee9adbo4c73ac7utg?key=LcZSgrVbBx0
