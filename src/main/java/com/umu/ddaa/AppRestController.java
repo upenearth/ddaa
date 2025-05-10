@@ -12,4 +12,8 @@ public class AppRestController {
     public String getMessage() {
         return "Hello Everyone";
     }
+
+    public int addTwoNumbers(int i, int i1) {
+        return i + i1 + i;
+    }
 }

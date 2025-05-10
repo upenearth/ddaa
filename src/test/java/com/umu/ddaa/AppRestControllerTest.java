@@ -13,4 +13,10 @@ public class AppRestControllerTest {
         String message = appRestController.getMessage();
         assertThat(message, is("Hello Everyone"));
     }
+
+    @Test
+    public void test_add_two_numbers() {
+        AppRestController appRestController = new AppRestController();
+        assertThat(appRestController.addTwoNumbers(2,2), is(4));
+    }
 }
