@@ -11,7 +11,7 @@ public class AppRestControllerTest {
     public void test_get_message() {
         AppRestController appRestController = new AppRestController();
         String message = appRestController.getMessage();
-        assertThat(message, is("Hello Everyone"));
+        assertThat(message, is("Hello Everyone. Wish you a good day"));
     }
 
     @Test
